@@ -296,7 +296,7 @@
 				                </ul>
 				              </div>
 				              <div class="box-content">
-				                <div class="row">
+				                <div class="box-deck">
 					            <div class="box">
 					              <table class="table table-sm">
 					              	<tr>
