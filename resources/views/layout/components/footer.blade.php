@@ -6,5 +6,5 @@
       </li>
     </ul>
   </div>
-  &copy; {{date('Y')}} <a href="/">INMAPE</a>, Todos los derechos reservados.
+  &copy; {{date('Y')}} <a href="/">TERPEL</a>, Todos los derechos reservados.
 </footer>
