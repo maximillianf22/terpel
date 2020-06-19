@@ -17,7 +17,7 @@
       </li>
       <li class="header nav-small-cap">MENU</li>
                   <li class="">
-        <a href="/dashboard">
+        <a href="#">
           <i class="fa fa-line-chart"></i> <span>Dashboard</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
@@ -25,7 +25,7 @@
         </a>
       </li>
                                                 <li class="">
-        <a href="/empleados">
+        <a href="#">
           <i class="fa fa-users"></i> <span>Empleados</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
@@ -33,7 +33,7 @@
         </a>
       </li>
                         <li class="">
-        <a href="/clientes">
+        <a href="#">
           <i class="fa fa-address-book-o"></i> <span>Clientes</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
@@ -49,7 +49,7 @@
         </a>
       </li>
                         <li class="">
-        <a href="/inventario">
+        <a href="#">
           <i class="fa fa-archive"></i> <span>Inventario</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
