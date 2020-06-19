@@ -52,7 +52,7 @@
 							<div class="col-md-6">
 								<div class="form-group">
 									<label for="emailAddress1">Flota</label>
-									<input type="email" class="form-control" required>
+									<input type="text" class="form-control" required>
 								</div>
 							</div>
 							<div class="col-md-6">
