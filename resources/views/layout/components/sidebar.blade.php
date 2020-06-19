@@ -41,7 +41,7 @@
         </a>
       </li>
                         <li class="">
-        <a href="/ordenes">
+        <a href="/">
           <i class="fa fa-file-text-o"></i> <span>Laboratorio</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
