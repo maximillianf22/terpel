@@ -1072,7 +1072,7 @@
                 <div class="card-body">
                   <div class="row">
                   	<div class="border">
-                   		<img src="{{ asset('assets/images/etiqueta.png')}}">
+                   		<img src="{{ asset('assets/images/etiquetas.png')}}">
                    </div>
                 </div>
             </div>
