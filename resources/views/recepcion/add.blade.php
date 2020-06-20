@@ -271,11 +271,11 @@
 					                     <div class="row">
 					                     	<div class="col">
 												<input name="group5" type="radio" id="radio_30" class="with-gap radio-col-red" checked="">
-												<label for="radio_30">si</label>	
+												<label for="radio_30">Si</label>	
 											</div>
 											<div class="col">				
 												<input name="group5" type="radio" id="radio_32" class="with-gap radio-col-purple">
-												<label for="radio_32">no</label>
+												<label for="radio_32">No</label>
 											</div>
 										</div>
 
