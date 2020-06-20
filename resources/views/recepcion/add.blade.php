@@ -267,8 +267,18 @@
 					                  <tr>
 					                    <th>Cambio de Aceite</th>
 					                     <td>
-					                     	<input type="checkbox" id="basic_checkbox_1">
-					                     	<label for="basic_checkbox_1">Si / No</label>	
+					                     	
+					                     <div class="row">
+					                     	<div class="col">
+												<input name="group5" type="radio" id="radio_30" class="with-gap radio-col-red" checked="">
+												<label for="radio_30">si</label>	
+											</div>
+											<div class="col">				
+												<input name="group5" type="radio" id="radio_32" class="with-gap radio-col-purple">
+												<label for="radio_32">no</label>
+											</div>
+										</div>
+
 						          		</td>
 					                  </tr>
 					              </table>
