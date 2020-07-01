@@ -171,6 +171,114 @@
 						</div>
 					<div class="container">
 						<div class="row">
+							<div class="col-12">
+							  <div class="box">
+								<div class="box-header">
+							  		<h4 class="box-title"><strong>Listado </strong> Components Locations</h4>
+								</div>
+							  <div class="box-body">
+								<div class="row">
+								  <div class="col-12">
+									<div class="table-responsive">
+										<table id="mainTable" class="table editable-table table-bordered table-striped m-b-0" style="cursor: pointer;">
+											<thead>
+												<tr>
+													<th>Component</th>
+													<th>Fecha Recepcion</th>
+													<th>Fecha Muestra</th>
+													<th>Tipo Aceite</th>
+													<th>Horometro</th>
+													<th>Lote</th>
+													<th>Cliente</th>
+													<th>Cambio Aceite</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td tabindex="1">Motor</td>
+													<td tabindex="1">15/07/2020</td>
+													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Aceite Mineral</td>
+													<td tabindex="1">200 H</td>
+													<td tabindex="1">LT448</td>
+													<td tabindex="1">Jaime Snow</td>
+													<td tabindex="1">
+														<label class="switch">
+														  <input type="checkbox">
+														  <span class="slider round"></span>
+														</label>
+													</td>
+												</tr>
+												<tr>
+													<td tabindex="1">Rueda</td>
+													<td tabindex="1">15/07/2020</td>
+													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Aceite Semi-Sintetico</td>
+													<td tabindex="1">200 H</td>
+													<td tabindex="1">LT448</td>
+													<td tabindex="1">Jaime Snow</td>
+													<td tabindex="1">
+														<label class="switch">
+														  <input type="checkbox">
+														  <span class="slider round"></span>
+														</label>
+													</td>
+												</tr>
+												<tr>
+													<td tabindex="1">Sitema Hidraulico</td>
+													<td tabindex="1">15/07/2020</td>
+													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Aceite Semi-Sintetico</td>
+													<td tabindex="1">200 H</td>
+													<td tabindex="1">LT448</td>
+													<td tabindex="1">Jaime Snow</td>
+													<td tabindex="1">
+														<label class="switch">
+														  <input type="checkbox" checked>
+														  <span class="slider round"></span>
+														</label>
+													</td>
+												</tr>
+												<tr>
+													<td tabindex="1">Direccional</td>
+													<td tabindex="1">15/07/2020</td>
+													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Aceite Mineral</td>
+													<td tabindex="1">400 H</td>
+													<td tabindex="1">LT448</td>
+													<td tabindex="1">Jaime Snow</td>
+													<td tabindex="1">
+														<label class="switch">
+														  <input type="checkbox">
+														  <span class="slider round"></span>
+														</label>
+													</td>
+												</tr>
+												<tr>
+													<td tabindex="1">Convertidor</td>
+													<td tabindex="1">15/07/2020</td>
+													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Aceite Mineral</td>
+													<td tabindex="1">100 H</td>
+													<td tabindex="1">LT448</td>
+													<td tabindex="1">Jaime Snow</td>
+													<td tabindex="1">
+														<label class="switch">
+														  <input type="checkbox" checked>
+														  <span class="slider round"></span>
+														</label>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									<input style="position: absolute; top: 49px; left: 15px; padding: 14px; text-align: start; font: 400 13px / 19.5px Poppins, sans-serif; border: 1px solid rgb(244, 244, 244); width: 328px; height: 48px; display: none;"></div>
+								  </div>
+
+								</div>
+							  </div>
+							</div>
+						</div>
+							{{--
 							<div class="container ">
 							</div>
 							<div class="col-5">
@@ -289,6 +397,7 @@
 					              </div>
 					            </div>
 							</div>
+							--}}
 						</div>
 					</div>
 					</section>
@@ -359,72 +468,8 @@
 							   </div>
 				              </div>
 				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
-				            <div class="box box-slided-up">
-				              <div class="box-header with-border">
-				                <h5 class="box-title">Muestrad ID: <strong>444</strong></h5>
-				                <ul class="box-controls pull-right">
-				                  <li><a class="box-btn-close" href="#"></a></li>
-				                  <li><a class="box-btn-slide" href="#"></a></li>
-				                </ul>
-				              </div>
-				              <div class="box-content">
-				                <div class="row">
-					            <div class="box">
-					              <table class="table table-sm">
-					              	<tr>
-					                    <th>Componente</th>
-					                     <td>Motor</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Recepcion</th>
-					                     <td>15/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Muestra</th>
-					                     <td>12/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Tipo de Aceite</th>
-					                     <td>Aceite Mineral</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Horometro</th>
-					                     <td>200 H</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Lote</th>
-					                     <td>448</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cliente</th>
-					                     <td>Jaime Snow</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cambio de Aceite</th>
-					                     <td>
-					                     	Si
-						          		</td>
-					                  </tr>
-					              </table>
-					            </div>
-					            <div class="box">
-					            	<a data-toggle="modal" data-target="#modalEtiqueta">
-							            <div class="box-body">
-							            	<div class="col-12">
-							            		<h6 class="text-center"><small>Para previsualizar la etiqueta haga click en la imagen</small><br>
-								            	<img src="https://www.latiendadelasbarras.com/wp-content/uploads/2019/07/codigo-39-barras-1024x398.jpg" class="model_img img-fluid" style="width: 70%">
-								            	</h6>
-							            	</div>
-										</div>
-									</a>
-								</div>
-							   </div>
-				              </div>
-				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
+				         </div>
+				         <div class="col-md-6 col-lg-4">
 				            <div class="box box-slided-up">
 				              <div class="box-header with-border">
 				                <h5 class="box-title">Muestrad ID: <strong>445</strong></h5>
@@ -434,12 +479,12 @@
 				                </ul>
 				              </div>
 				              <div class="box-content">
-				                <div class="row">
+				                <div class="box-deck">
 					            <div class="box">
 					              <table class="table table-sm">
 					              	<tr>
 					                    <th>Componente</th>
-					                     <td>Motor</td>
+					                     <td>Diferencial</td>
 					                  </tr>
 					                  <tr>
 					                    <th>Fecha de Recepcion</th>
@@ -487,8 +532,8 @@
 							   </div>
 				              </div>
 				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
+				         </div>
+				         <div class="col-md-6 col-lg-4">
 				            <div class="box box-slided-up">
 				              <div class="box-header with-border">
 				                <h5 class="box-title">Muestrad ID: <strong>446</strong></h5>
@@ -498,12 +543,12 @@
 				                </ul>
 				              </div>
 				              <div class="box-content">
-				                <div class="row">
+				                <div class="box-deck">
 					            <div class="box">
 					              <table class="table table-sm">
 					              	<tr>
 					                    <th>Componente</th>
-					                     <td>Motor</td>
+					                     <td>Riuedas</td>
 					                  </tr>
 					                  <tr>
 					                    <th>Fecha de Recepcion</th>
@@ -551,8 +596,8 @@
 							   </div>
 				              </div>
 				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
+				         </div>
+				         <div class="col-md-6 col-lg-4">
 				            <div class="box box-slided-up">
 				              <div class="box-header with-border">
 				                <h5 class="box-title">Muestrad ID: <strong>447</strong></h5>
@@ -562,12 +607,12 @@
 				                </ul>
 				              </div>
 				              <div class="box-content">
-				                <div class="row">
+				                <div class="box-deck">
 					            <div class="box">
 					              <table class="table table-sm">
 					              	<tr>
 					                    <th>Componente</th>
-					                     <td>Motor</td>
+					                     <td>Convertidor</td>
 					                  </tr>
 					                  <tr>
 					                    <th>Fecha de Recepcion</th>
@@ -615,8 +660,8 @@
 							   </div>
 				              </div>
 				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
+				         </div>
+				         <div class="col-md-6 col-lg-4">
 				            <div class="box box-slided-up">
 				              <div class="box-header with-border">
 				                <h5 class="box-title">Muestrad ID: <strong>448</strong></h5>
@@ -626,12 +671,12 @@
 				                </ul>
 				              </div>
 				              <div class="box-content">
-				                <div class="row">
+				                <div class="box-deck">
 					            <div class="box">
 					              <table class="table table-sm">
 					              	<tr>
 					                    <th>Componente</th>
-					                     <td>Motor</td>
+					                     <td>Sistema Hidraulico</td>
 					                  </tr>
 					                  <tr>
 					                    <th>Fecha de Recepcion</th>
@@ -679,199 +724,7 @@
 							   </div>
 				              </div>
 				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
-				            <div class="box box-slided-up">
-				              <div class="box-header with-border">
-				                <h5 class="box-title">Muestrad ID: <strong>449</strong></h5>
-				                <ul class="box-controls pull-right">
-				                  <li><a class="box-btn-close" href="#"></a></li>
-				                  <li><a class="box-btn-slide" href="#"></a></li>
-				                </ul>
-				              </div>
-				              <div class="box-content">
-				                <div class="row">
-					            <div class="box">
-					              <table class="table table-sm">
-					              	<tr>
-					                    <th>Componente</th>
-					                     <td>Motor</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Recepcion</th>
-					                     <td>15/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Muestra</th>
-					                     <td>12/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Tipo de Aceite</th>
-					                     <td>Aceite Mineral</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Horometro</th>
-					                     <td>200 H</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Lote</th>
-					                     <td>448</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cliente</th>
-					                     <td>Jaime Snow</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cambio de Aceite</th>
-					                     <td>
-					                     	Si
-						          		</td>
-					                  </tr>
-					              </table>
-					            </div>
-					            <div class="box">
-					            	<a data-toggle="modal" data-target="#modalEtiqueta">
-							            <div class="box-body">
-							            	<div class="col-12">
-							            		<h6 class="text-center"><small>Para previsualizar la etiqueta haga click en la imagen</small><br>
-								            	<img src="https://www.latiendadelasbarras.com/wp-content/uploads/2019/07/codigo-39-barras-1024x398.jpg" class="model_img img-fluid" style="width: 70%">
-								            	</h6>
-							            	</div>
-										</div>
-									</a>
-								</div>
-							   </div>
-				              </div>
-				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
-				            <div class="box box-slided-up">
-				              <div class="box-header with-border">
-				                <h5 class="box-title">Muestrad ID: <strong>450</strong></h5>
-				                <ul class="box-controls pull-right">
-				                  <li><a class="box-btn-close" href="#"></a></li>
-				                  <li><a class="box-btn-slide" href="#"></a></li>
-				                </ul>
-				              </div>
-				              <div class="box-content">
-				                <div class="row">
-					            <div class="box">
-					              <table class="table table-sm">
-					              	<tr>
-					                    <th>Componente</th>
-					                     <td>Motor</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Recepcion</th>
-					                     <td>15/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Muestra</th>
-					                     <td>12/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Tipo de Aceite</th>
-					                     <td>Aceite Mineral</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Horometro</th>
-					                     <td>200 H</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Lote</th>
-					                     <td>448</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cliente</th>
-					                     <td>Jaime Snow</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cambio de Aceite</th>
-					                     <td>
-					                     	Si
-						          		</td>
-					                  </tr>
-					              </table>
-					            </div>
-					            <div class="box">
-					            	<a data-toggle="modal" data-target="#modalEtiqueta">
-							            <div class="box-body">
-							            	<div class="col-12">
-							            		<h6 class="text-center"><small>Para previsualizar la etiqueta haga click en la imagen</small><br>
-								            	<img src="https://www.latiendadelasbarras.com/wp-content/uploads/2019/07/codigo-39-barras-1024x398.jpg" class="model_img img-fluid" style="width: 70%">
-								            	</h6>
-							            	</div>
-										</div>
-									</a>
-								</div>
-							   </div>
-				              </div>
-				            </div>
-				          </div>
-				          <div class="col-md-6 col-lg-4">
-				            <div class="box box-slided-up">
-				              <div class="box-header with-border">
-				                <h5 class="box-title">Muestrad ID: <strong>451</strong></h5>
-				                <ul class="box-controls pull-right">
-				                  <li><a class="box-btn-close" href="#"></a></li>
-				                  <li><a class="box-btn-slide" href="#"></a></li>
-				                </ul>
-				              </div>
-				              <div class="box-content">
-				                <div class="row">
-					            <div class="box">
-					              <table class="table table-sm">
-					              	<tr>
-					                    <th>Componente</th>
-					                     <td>Motor</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Recepcion</th>
-					                     <td>15/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Muestra</th>
-					                     <td>12/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Tipo de Aceite</th>
-					                     <td>Aceite Mineral</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Horometro</th>
-					                     <td>200 H</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Lote</th>
-					                     <td>448</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cliente</th>
-					                     <td>Jaime Snow</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cambio de Aceite</th>
-					                     <td>
-					                     	Si
-						          		</td>
-					                  </tr>
-					              </table>
-					            </div>
-					            <div class="box">
-					            	<a data-toggle="modal" data-target="#modalEtiqueta">
-							            <div class="box-body">
-							            	<div class="col-12">
-							            		<h6 class="text-center"><small>Para previsualizar la etiqueta haga click en la imagen</small><br>
-								            	<img src="https://www.latiendadelasbarras.com/wp-content/uploads/2019/07/codigo-39-barras-1024x398.jpg" class="model_img img-fluid" style="width: 70%">
-								            	</h6>
-							            	</div>
-										</div>
-									</a>
-								</div>
-							   </div>
-				              </div>
-				            </div>
-				          </div>
+				         </div>
 				          </div>
 				          <div class="container">
 				          	<div class="col-2">&nbsp;</div>
