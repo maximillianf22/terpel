@@ -58,6 +58,7 @@
 							                  <th style="width: 10px">#</th>
 							                  <th>Component Location</th>
 							                  <th>Select</th>
+							                  <th>Lubricant</th>
 							                  <th>Oil Type</th>
 							                  <th>Oil Time</th>
 							                  <th>Oil Change</th>
@@ -73,9 +74,16 @@
 							                  <td>
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
-									                  <option selected="selected">Oil Type</option>
+									                  <option selected="selected">Lubricant</option>
 									                  <option>Grasa</option>
 									                  <option>Aceite</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
 									                  <option>Sintetic</option>
 									                  <option>Semi-Sintetic</option>
 									                </select>
@@ -105,9 +113,16 @@
 							                   <td>
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
-									                  <option selected="selected">Oil Type</option>
+									                  <option selected="selected">Lubricant</option>
 									                  <option>Grasa</option>
 									                  <option>Aceite</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
 									                  <option>Sintetic</option>
 									                  <option>Semi-Sintetic</option>
 									                </select>
@@ -137,9 +152,16 @@
 							                   <td>
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
-									                  <option selected="selected">Oil Type</option>
+									                  <option selected="selected">Lubricant</option>
 									                  <option>Grasa</option>
 									                  <option>Aceite</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
 									                  <option>Sintetic</option>
 									                  <option>Semi-Sintetic</option>
 									                </select>
@@ -169,9 +191,16 @@
 							                   <td>
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
-									                  <option selected="selected">Oil Type</option>
+									                  <option selected="selected">Lubricant</option>
 									                  <option>Grasa</option>
 									                  <option>Aceite</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
 									                  <option>Sintetic</option>
 									                  <option>Semi-Sintetic</option>
 									                </select>
@@ -201,9 +230,16 @@
 							                   <td>
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
-									                  <option selected="selected">Oil Type</option>
+									                  <option selected="selected">Lubricant</option>
 									                  <option>Grasa</option>
 									                  <option>Aceite</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
 									                  <option>Sintetic</option>
 									                  <option>Semi-Sintetic</option>
 									                </select>
