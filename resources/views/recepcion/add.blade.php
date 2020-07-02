@@ -18,18 +18,33 @@
 				<form action="#" class="tab-wizard wizard-circle">
 				 <h6>Reception<br><small></small></h6>
 					<section>
-						<div class="row mb-3">
-							<div class="col-3"></div>
-							<div class="col-6">
-								<div class="input-group">
-					                <input type="text" class="form-control" placeholder="Search account ID">
-					                    <span class="input-group-btn">
-					                      <button type="button" class="btn btn-info"><i class="fa fa-search"></i></button>
-					                    </span>
-					              </div>
+						<div class="box">
+								<div class="box-body">
+									<div class="media-list media-list-hover media-list-divided ">
+										<div class="media media-single">
+											<input type="hidden" id="idCustomer" name="customerID">
+											<img class="avatar avatar-xl" id="customerImg" src="https://i.postimg.cc/L6m1FYBP/male-user-placeholder.jpg" alt="...">
+											<div class="media-body">
+												<div class="row align-items-center">
+													<div class="col">
+														<h6 class="mb-0">UNIT ID: O-GS62</h6>
+														<h4 class="mb-0" id="customerBussinessName">Make: CATERPILLAR</h4>
+														<h5 class="mb-0" id="customerNIT">MODEL: 777C</h5>
+													</div>
+													<div class="col">
+														<h6 class="mb-0">Data</h6>
+														<h4 class="mb-0" id="customerContactName">Customer: Nasa</h4>
+														<h5 class="mb-0" id="customerCellphoneName">Navy: Apollo 1</h5>
+													</div>
+													<div class="col">
+														<a href="" class="btn btn-dark btn-block" data-toggle="modal" data-target="#modalClientes"><i class="fa fa-plus-circle" aria-hidden="true"></i> SEARCH UNIT ID</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="col-3"></div>
-						</div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
@@ -84,8 +99,8 @@
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
 									                  <option selected="selected">Oil Type</option>
-									                  <option>Sintetic</option>
-									                  <option>Semi-Sintetic</option>
+									                  <option>DELVAC MX ESP</option>
+									                  <option>TOLVAC MX</option>
 									                </select>
 									              </div>
 							                  </td>
@@ -123,8 +138,8 @@
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
 									                  <option selected="selected">Oil Type</option>
-									                  <option>Sintetic</option>
-									                  <option>Semi-Sintetic</option>
+									                  <option>DELVAC MX ESP</option>
+									                  <option>TOLVAC MX</option>
 									                </select>
 									              </div>
 							                  </td>
@@ -162,8 +177,8 @@
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
 									                  <option selected="selected">Oil Type</option>
-									                  <option>Sintetic</option>
-									                  <option>Semi-Sintetic</option>
+									                  <option>DELVAC MX ESP</option>
+									                  <option>TOLVAC MX</option>
 									                </select>
 									              </div>
 							                  </td>
@@ -201,8 +216,8 @@
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
 									                  <option selected="selected">Oil Type</option>
-									                  <option>Sintetic</option>
-									                  <option>Semi-Sintetic</option>
+									                  <option>DELVAC MX ESP</option>
+									                  <option>TOLVAC MX</option>
 									                </select>
 									              </div>
 							                  </td>
@@ -240,8 +255,8 @@
 							                  	<div class="form-group">
 									                <select class="form-control select2" style="width: 100%;">
 									                  <option selected="selected">Oil Type</option>
-									                  <option>Sintetic</option>
-									                  <option>Semi-Sintetic</option>
+									                  <option>DELVAC MX ESP</option>
+									                  <option>TOLVAC MX</option>
 									                </select>
 									              </div>
 							                  </td>
@@ -270,17 +285,33 @@
 					<!-- Step 2 -->
 					<h6>Review <br><small>Sample</small></h6>
 					<section>
-						<div class="row mb-4">
-							<div class="col-2"></div>
-							<div class="col-4">
-								<h5><strong>Code:</strong> 165721 </h5>
-								<h5><strong>Customer:</strong> NASA </h5>
+					<div class="box">
+								<div class="box-body">
+									<div class="media-list media-list-hover media-list-divided ">
+										<div class="media media-single">
+											<input type="hidden" id="idCustomer" name="customerID">
+											<img class="avatar avatar-xl" id="customerImg" src="https://i.postimg.cc/L6m1FYBP/male-user-placeholder.jpg" alt="...">
+											<div class="media-body">
+												<div class="row align-items-center">
+													<div class="col">
+														<h6 class="mb-0">UNIT ID: O-GS62</h6>
+														<h4 class="mb-0" id="customerBussinessName">Make: CATERPILLAR</h4>
+														<h5 class="mb-0" id="customerNIT">MODEL: 777C</h5>
+													</div>
+													<div class="col">
+														<h6 class="mb-0" id="customerContactName">Customer: Nasa</h6>
+														<h4 class="mb-0" id="customerCellphoneName">Navy: Apollo 1</h4>
+														<h5 class="mb-0">Sample Date: 02/06/2020</h5>
+													</div>
+													<div class="col">
+														<a href="" class="btn btn-dark btn-block" data-toggle="modal" data-target="#modalClientes"><i class="fa fa-plus-circle" aria-hidden="true"></i> SEARCH UNIT ID</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div class="col-4 text-right">
-								<h5><strong>Navy:</strong> Apollo 1</h5>
-							</div>
-							<div class="col-2"></div>
-						</div>
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
@@ -296,7 +327,6 @@
 											<thead>
 												<tr>
 													<th>Component</th>
-													<th>Sample Date</th>
 													<th>Lubricant</th>
 													<th>Oil Type</th>
 													<th>Horometer</th>
@@ -308,87 +338,57 @@
 											<tbody>
 												<tr>
 													<td tabindex="1">Motor</td>
-													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Aceite</td>
-													<td tabindex="1">Aceite Mineral</td>
+													<td tabindex="1">TOLVAC MX</td>
 													<td tabindex="1">200 H</td>
 													<td tabindex="1">900 H</td>
 													<td tabindex="1">LT448</td>
 													<td tabindex="1">
-														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
-														    margin-left: 0px;
-														    margin-right: 0px;
-														">
-														<div class="handle"></div>
-													  </button>
+														Si
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Rueda</td>
-													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Grasa</td>
-													<td tabindex="1">Aceite Semi-Sintetico</td>
+													<td tabindex="1">Aceite TOLVAC MX</td>
 													<td tabindex="1">200 H</td>
 													<td tabindex="1">300 H</td>
 													<td tabindex="1">LT448</td>
 													<td tabindex="1">
-														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
-														    margin-left: 0px;
-														    margin-right: 0px;
-														">
-														<div class="handle"></div>
-													  </button>
+														No
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Sitema Hidraulico</td>
-													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Grasa</td>
-													<td tabindex="1">Aceite Semi-Sintetico</td>
+													<td tabindex="1">Aceite TOLVAC MX</td>
 													<td tabindex="1">200 H</td>
 													<td tabindex="1">500 H</td>
 													<td tabindex="1">LT448</td>
 													<td tabindex="1">
-														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
-														    margin-left: 0px;
-														    margin-right: 0px;
-														">
-														<div class="handle"></div>
-													  </button>
+														Si
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Direccional</td>
-													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Aceite</td>
-													<td tabindex="1">Aceite Mineral</td>
+													<td tabindex="1">DELVAC MX ESP</td>
 													<td tabindex="1">400 H</td>
 													<td tabindex="1">600 H</td>
 													<td tabindex="1">LT448</td>
 													<td tabindex="1">
-														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
-														    margin-left: 0px;
-														    margin-right: 0px;
-														">
-														<div class="handle"></div>
-													  </button>
+														Si>
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Convertidor</td>
-													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Grasa</td>
-													<td tabindex="1">Aceite Mineral</td>
+													<td tabindex="1">DELVACK MX ESP</td>
 													<td tabindex="1">100 H</td>
 													<td tabindex="1">200 H</td>
 													<td tabindex="1">LT448</td>
 													<td tabindex="1">
-														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
-														    margin-left: 0px;
-														    margin-right: 0px;
-														">
-														<div class="handle"></div>
-													  </button>
+														Si
 													</td>
 												</tr>
 											</tbody>
@@ -406,7 +406,7 @@
 					</div>
 					</section>
 					<!-- Step 4 -->
-					<h6>Revision <br><small>de Muestras</small></h6>
+					<h6>Check <br><small>Label</small></h6>
 					<section>
 						<div class="row">
 						<div class="col-md-6 col-lg-4">
