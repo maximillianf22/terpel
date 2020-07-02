@@ -297,6 +297,7 @@
 												<tr>
 													<th>Component</th>
 													<th>Sample Date</th>
+													<th>Lubricant</th>
 													<th>Oil Type</th>
 													<th>Horometer</th>
 													<th>Oil Time</th>
@@ -308,6 +309,7 @@
 												<tr>
 													<td tabindex="1">Motor</td>
 													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Aceite</td>
 													<td tabindex="1">Aceite Mineral</td>
 													<td tabindex="1">200 H</td>
 													<td tabindex="1">900 H</td>
@@ -324,6 +326,7 @@
 												<tr>
 													<td tabindex="1">Rueda</td>
 													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Grasa</td>
 													<td tabindex="1">Aceite Semi-Sintetico</td>
 													<td tabindex="1">200 H</td>
 													<td tabindex="1">300 H</td>
@@ -340,6 +343,7 @@
 												<tr>
 													<td tabindex="1">Sitema Hidraulico</td>
 													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Grasa</td>
 													<td tabindex="1">Aceite Semi-Sintetico</td>
 													<td tabindex="1">200 H</td>
 													<td tabindex="1">500 H</td>
@@ -356,6 +360,7 @@
 												<tr>
 													<td tabindex="1">Direccional</td>
 													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Aceite</td>
 													<td tabindex="1">Aceite Mineral</td>
 													<td tabindex="1">400 H</td>
 													<td tabindex="1">600 H</td>
@@ -372,6 +377,7 @@
 												<tr>
 													<td tabindex="1">Convertidor</td>
 													<td tabindex="1">12/07/2020</td>
+													<td tabindex="1">Grasa</td>
 													<td tabindex="1">Aceite Mineral</td>
 													<td tabindex="1">100 H</td>
 													<td tabindex="1">200 H</td>
