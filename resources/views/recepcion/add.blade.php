@@ -7,7 +7,7 @@
 	<section class="content">
 		<div class="box">
 			<div class="box-header with-border">
-				<h3 class="box-title">Recepcion de Muestras</h3>
+				<h3 class="box-title">Reception</h3>
 				<div class="box-tools pull-right">
 					<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
 					<button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-remove"></i></button>
@@ -16,156 +16,232 @@
 			<!-- /.box-header -->
 			<div class="box-body wizard-content">
 				<form action="#" class="tab-wizard wizard-circle">
-				 <h6>Ingreso<br><small>Código de Vehículo</small></h6>
+				 <h6>Reception<br><small></small></h6>
 					<section>
 						<div class="row mb-3">
-							<div class="col-8">
+							<div class="col-3"></div>
+							<div class="col-6">
 								<div class="input-group">
-					                <input type="text" class="form-control" placeholder="Buscar">
+					                <input type="text" class="form-control" placeholder="Search account ID">
 					                    <span class="input-group-btn">
 					                      <button type="button" class="btn btn-info"><i class="fa fa-search"></i></button>
 					                    </span>
 					              </div>
 							</div>
-							<div class="col-1"></div>
-							<div class="col-3">
-								<button class="btn btn-block btn-success"><i class="fa fa-plus"></i> Crear Nuevo</button>
-							</div>
+							<div class="col-3"></div>
 						</div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="firstName1">Equipo</label>
-									<input type="text" class="form-control" id="firstName1" required>
+									<label for="firstName1">Sample Date</label>
+									<input type="date" class="form-control" id="date1">
 								</div>
 							</div>
 							<div class="col-md-6">
 								<a data-toggle="modal" data-target="#modalClientes">
 									<div class="form-group">
-										<label for="lastName1">Cliente</label>
+										<label for="lastName1">Horometer</label>
 										<input type="text" class="form-control" id="orderCustomer" required>
 									</div>
 								</a>
 							</div>
 						</div>
+				 			<h4>Component Locations<br><small></small></h4>
 						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<label for="emailAddress1">Flota</label>
-									<input type="text" class="form-control" required>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<label for="shortDescription1">Descripcion</label>
-									<textarea name="shortDescription" id="shortDescription1" rows="6" class="form-control"></textarea>
-								</div>
-							</div>
-						</div>
+						        <!-- /.col -->
+						         <div class="col-md-12 col-lg-12">
+							          <div class="box">
+							            <!-- /.box-header -->
+							            <div class="box-body">
+							              <table class="table table-hover table-responsive">
+							                <tbody><tr>
+							                  <th style="width: 10px">#</th>
+							                  <th>Component Location</th>
+							                  <th>Select</th>
+							                  <th>Oil Type</th>
+							                  <th>Oil Time</th>
+							                  <th>Oil Change</th>
+							                  <th style="width: 40px">SOS</th>
+							                </tr>
+							                <tr>
+							                  <td>1</td>
+							                  <td>Motor</td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_11">
+											  		<label for="basic_checkbox_11"></label>
+							                  </td>
+							                  <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
+									                  <option>Grasa</option>
+									                  <option>Aceite</option>
+									                  <option>Sintetic</option>
+									                  <option>Semi-Sintetic</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td><input type="number" class="form-control"></td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_12" class="chk-col-deep-orange">
+											  		<label for="basic_checkbox_12"></label>
+							                  </td>
+							                  <td class="text-center">
+												  <button type="button" class="btn btn-toggle btn-danger" data-toggle="button" aria-pressed="true" style="
+													    margin-left: 0px;
+													    margin-right: 0px;
+													">
+													<div class="handle"></div>
+												  </button>
+							                  </td>
+							                </tr>
+							                <tr>
+							                  <td>2</td>
+							                  <td>Hydraulic System</td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_13">
+											  		<label for="basic_checkbox_13"></label>
+							                  </td>
+							                   <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
+									                  <option>Grasa</option>
+									                  <option>Aceite</option>
+									                  <option>Sintetic</option>
+									                  <option>Semi-Sintetic</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td><input type="number" class="form-control"></td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_14" class="chk-col-deep-orange">
+											  		<label for="basic_checkbox_14"></label>
+							                  </td>
+							                  <td class="text-center">
+												  <button type="button" class="btn btn-toggle btn-danger" data-toggle="button" aria-pressed="true" style="
+													    margin-left: 0px;
+													    margin-right: 0px;
+													">
+													<div class="handle"></div>
+												  </button>
+							                  </td>
+							                </tr>
+							                <tr>
+							                  <td>3</td>
+							                  <td>Wheel</td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_15">
+											  		<label for="basic_checkbox_15"></label>
+							                  </td>
+							                   <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
+									                  <option>Grasa</option>
+									                  <option>Aceite</option>
+									                  <option>Sintetic</option>
+									                  <option>Semi-Sintetic</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td><input type="number" class="form-control"></td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_16" class="chk-col-deep-orange">
+											  		<label for="basic_checkbox_16"></label>
+							                  </td>
+							                  <td class="text-center">
+												  <button type="button" class="btn btn-toggle btn-danger" data-toggle="button" aria-pressed="true" style="
+													    margin-left: 0px;
+													    margin-right: 0px;
+													">
+													<div class="handle"></div>
+												  </button>
+							                  </td>
+							                </tr>
+							                <tr>
+							                  <td>4</td>
+							                  <td>Differential</td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_17">
+											  		<label for="basic_checkbox_17"></label>
+							                  </td>
+							                   <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
+									                  <option>Grasa</option>
+									                  <option>Aceite</option>
+									                  <option>Sintetic</option>
+									                  <option>Semi-Sintetic</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td><input type="number" class="form-control"></td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_2" class="chk-col-deep-orange">
+											  		<label for="basic_checkbox_2"></label>
+							                  </td>
+							                  <td class="text-center">
+												  <button type="button" class="btn btn-toggle btn-danger" data-toggle="button" aria-pressed="true" style="
+													    margin-left: 0px;
+													    margin-right: 0px;
+													">
+													<div class="handle"></div>
+												  </button>
+							                  </td>
+							                </tr>
+							                <tr>
+							                  <td>5</td>
+							                  <td>Converter</td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_18">
+											  		<label for="basic_checkbox_18"></label>
+							                  </td>
+							                   <td>
+							                  	<div class="form-group">
+									                <select class="form-control select2" style="width: 100%;">
+									                  <option selected="selected">Oil Type</option>
+									                  <option>Grasa</option>
+									                  <option>Aceite</option>
+									                  <option>Sintetic</option>
+									                  <option>Semi-Sintetic</option>
+									                </select>
+									              </div>
+							                  </td>
+							                  <td><input type="number" class="form-control"></td>
+							                  <td class="text-center">
+							                     <input type="checkbox" id="basic_checkbox_19" class="chk-col-deep-orange">
+											  		<label for="basic_checkbox_19"></label>
+							                  </td>
+							                  <td class="text-center">
+												  <button type="button" class="btn btn-toggle btn-danger" data-toggle="button" aria-pressed="true" style="
+													    margin-left: 0px;
+													    margin-right: 0px;
+													">
+													<div class="handle"></div>
+												  </button>
+							                  </td>
+							                </tr>
+							              </tbody></table>
+							            </div>
+							            <!-- /.box-body -->
+							          </div>
+							          <!-- /.box -->
+						        </div>
+						      </div>
 					</section>
 					<!-- Step 2 -->
-					<h6>Localización <br><small>del Componente</small></h6>
+					<h6>Review <br><small>Sample</small></h6>
 					<section>
 						<div class="row mb-4">
 							<div class="col-2"></div>
 							<div class="col-4">
-								<h5><strong>Codigo:</strong> 165721 </h5>
-								<h5><strong>Cliente:</strong> NASA </h5>
+								<h5><strong>Code:</strong> 165721 </h5>
+								<h5><strong>Customer:</strong> NASA </h5>
 							</div>
 							<div class="col-4 text-right">
-								<h5><strong>Flota:</strong> Apollo 1</h5>
-								<button class="btn btn-success"><i class="fa fa-plus"></i>Nuevo Componente</button>
-							</div>
-							<div class="col-2"></div>
-						</div>
-						<div class="container bg-white border">
-							<div class="col-12">
-							  <div class="box-deck mt-4">
-								<div class="col-md-4 col-lg-3">
-						            <div class="box">
-									  <div class="box-header with-border">
-										<h4 class="box-title">Componente <br> <strong>Motor</strong></h4>
-									  </div>
-						              <div class="box-footer flexbox">					 
-										  <input type="checkbox" id="basic_checkbox_1">
-										  <label for="basic_checkbox_1">Seleccionar</label>
-						                <div class="text-right flex-grow">
-						                  <button class="btn btn-sm btn-primary">Editar</button>
-						                </div>
-						              </div>
-						            </div>
-						         </div>
-						         <div class="col-md-4 col-lg-3">
-						            <div class="box">
-									  <div class="box-header with-border">
-										<h4 class="box-title">Componente <br><strong>Sistema Hidraulico</strong></h4>
-									  </div>
-						              <div class="box-footer flexbox">					 
-										  <input type="checkbox" id="basic_checkbox_1">
-										  <label for="basic_checkbox_1">Seleccionar</label>
-						                <div class="text-right flex-grow">
-						                  <button class="btn btn-sm btn-primary">Editar</button>
-						                </div>
-						              </div>
-						            </div>
-						         </div>
-						         <div class="col-md-4 col-lg-3">
-						            <div class="box">
-									  <div class="box-header with-border">
-										<h4 class="box-title">Componente <br><strong>Ruedas</strong></h4>
-									  </div>
-						              <div class="box-footer flexbox">					 
-										  <input type="checkbox" id="basic_checkbox_1">
-										  <label for="basic_checkbox_1">Seleccionar</label>
-						                <div class="text-right flex-grow">
-						                  <button class="btn btn-sm btn-primary">Editar</button>
-						                </div>
-						              </div>
-						            </div>
-						         </div>
-						         <div class="col-md-4 col-lg-3">
-						            <div class="box">
-									  <div class="box-header with-border">
-										<h4 class="box-title">Componente <br><strong>Diferencial</strong></h4>
-									  </div>
-						              <div class="box-footer flexbox">					 
-										  <input type="checkbox" id="basic_checkbox_1">
-										  <label for="basic_checkbox_1">Seleccionar</label>
-						                <div class="text-right flex-grow">
-						                  <button class="btn btn-sm btn-primary">Editar</button>
-						                </div>
-						              </div>
-						            </div>
-						         </div>
-						         <div class="col-md-4 col-lg-3">
-						            <div class="box">
-									  <div class="box-header with-border">
-										<h4 class="box-title">Componente <br><strong>Convertidor</strong></h4>
-									  </div>
-						              <div class="box-footer flexbox">					 
-										  <input type="checkbox" id="basic_checkbox_1">
-										  <label for="basic_checkbox_1">Seleccionar</label>
-						                <div class="text-right flex-grow">
-						                  <button class="btn btn-sm btn-primary">Editar</button>
-						                </div>
-						              </div>
-						            </div>
-						         </div>
-						       </div>
-							</div>
-						</div>
-					</section>
-					<!-- Step 3 -->
-					<h6>Recepción <br><small>de Muestras</small></h6>
-					<section>
-						<div class="row mb-4">
-							<div class="col-2"></div>
-							<div class="col-4">
-								<h5><strong>Codigo:</strong> 165721 </h5>
-								<h5><strong>Cliente:</strong> NASA </h5>
-							</div>
-							<div class="col-4 text-right">
-								<h5><strong>Flota:</strong> Apollo 1</h5>
+								<h5><strong>Navy:</strong> Apollo 1</h5>
 							</div>
 							<div class="col-2"></div>
 						</div>
@@ -184,220 +260,106 @@
 											<thead>
 												<tr>
 													<th>Component</th>
-													<th>Fecha Recepcion</th>
-													<th>Fecha Muestra</th>
-													<th>Tipo Aceite</th>
-													<th>Horometro</th>
-													<th>Lote</th>
-													<th>Cliente</th>
-													<th>Cambio Aceite</th>
+													<th>Sample Date</th>
+													<th>Oil Type</th>
+													<th>Horometer</th>
+													<th>Oil Time</th>
+													<th>Lot</th>
+													<th>Oil Change</th>
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
 													<td tabindex="1">Motor</td>
-													<td tabindex="1">15/07/2020</td>
 													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Aceite Mineral</td>
 													<td tabindex="1">200 H</td>
+													<td tabindex="1">900 H</td>
 													<td tabindex="1">LT448</td>
-													<td tabindex="1">Jaime Snow</td>
 													<td tabindex="1">
-														<label class="switch">
-														  <input type="checkbox">
-														  <span class="slider round"></span>
-														</label>
+														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
+														    margin-left: 0px;
+														    margin-right: 0px;
+														">
+														<div class="handle"></div>
+													  </button>
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Rueda</td>
-													<td tabindex="1">15/07/2020</td>
 													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Aceite Semi-Sintetico</td>
 													<td tabindex="1">200 H</td>
+													<td tabindex="1">300 H</td>
 													<td tabindex="1">LT448</td>
-													<td tabindex="1">Jaime Snow</td>
 													<td tabindex="1">
-														<label class="switch">
-														  <input type="checkbox">
-														  <span class="slider round"></span>
-														</label>
+														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
+														    margin-left: 0px;
+														    margin-right: 0px;
+														">
+														<div class="handle"></div>
+													  </button>
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Sitema Hidraulico</td>
-													<td tabindex="1">15/07/2020</td>
 													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Aceite Semi-Sintetico</td>
 													<td tabindex="1">200 H</td>
+													<td tabindex="1">500 H</td>
 													<td tabindex="1">LT448</td>
-													<td tabindex="1">Jaime Snow</td>
 													<td tabindex="1">
-														<label class="switch">
-														  <input type="checkbox" checked>
-														  <span class="slider round"></span>
-														</label>
+														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
+														    margin-left: 0px;
+														    margin-right: 0px;
+														">
+														<div class="handle"></div>
+													  </button>
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Direccional</td>
-													<td tabindex="1">15/07/2020</td>
 													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Aceite Mineral</td>
 													<td tabindex="1">400 H</td>
+													<td tabindex="1">600 H</td>
 													<td tabindex="1">LT448</td>
-													<td tabindex="1">Jaime Snow</td>
 													<td tabindex="1">
-														<label class="switch">
-														  <input type="checkbox">
-														  <span class="slider round"></span>
-														</label>
+														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
+														    margin-left: 0px;
+														    margin-right: 0px;
+														">
+														<div class="handle"></div>
+													  </button>
 													</td>
 												</tr>
 												<tr>
 													<td tabindex="1">Convertidor</td>
-													<td tabindex="1">15/07/2020</td>
 													<td tabindex="1">12/07/2020</td>
 													<td tabindex="1">Aceite Mineral</td>
 													<td tabindex="1">100 H</td>
+													<td tabindex="1">200 H</td>
 													<td tabindex="1">LT448</td>
-													<td tabindex="1">Jaime Snow</td>
 													<td tabindex="1">
-														<label class="switch">
-														  <input type="checkbox" checked>
-														  <span class="slider round"></span>
-														</label>
+														<button type="button" class="btn btn-toggle btn-primary active" data-toggle="button" aria-pressed="true" style="
+														    margin-left: 0px;
+														    margin-right: 0px;
+														">
+														<div class="handle"></div>
+													  </button>
 													</td>
 												</tr>
 											</tbody>
 										</table>
-									<input style="position: absolute; top: 49px; left: 15px; padding: 14px; text-align: start; font: 400 13px / 19.5px Poppins, sans-serif; border: 1px solid rgb(244, 244, 244); width: 328px; height: 48px; display: none;"></div>
+									<input style="position: absolute; top: 49px; left: 15px; padding: 14px; text-align: start; font: 400 13px / 19.5px Poppins, sans-serif; border: 1px solid rgb(244, 244, 244); width: 328px; height: 48px; display: none;">
+									</div>
 								  </div>
 
 								</div>
 							  </div>
-							</div>
-						</div>
-							{{--
-							<div class="container ">
-							</div>
-							<div class="col-5">
-					            <div class="box">
-					              <div class="box-header with-border">
-					                <h5 class="box-title">Muestrad ID: <strong>443</strong></h5>
-					              </div>
-					              <table class="table table-sm">
-					              	<tr>
-					                    <th>Componente</th>
-					                     <td>Motor</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Recepcion</th>
-					                     <td>15/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Muestra</th>
-					                     <td>12/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Tipo de Aceite</th>
-					                     <td>Aceite Mineral</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Horometro</th>
-					                     <td>200 H</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Lote</th>
-					                     <td>448</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cliente</th>
-					                     <td>Jaime Snow</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cambio de Aceite</th>
-					                     <td>
-					                     	Si
-						          		</td>
-					                  </tr>
-					              </table>
-					            </div>
-					            <div class="box">
-					            	<a data-toggle="modal" data-target="#modalEtiqueta">
-							            <div class="box-body">
-							            	<div class="col-12">
-							            		<h6 class="text-center"><small>Para previsualizar la etiqueta haga click en la imagen</small><br>
-								            	<img src="https://www.latiendadelasbarras.com/wp-content/uploads/2019/07/codigo-39-barras-1024x398.jpg" class="model_img img-fluid" style="width: 70%">
-								            	</h6>
-							            	</div>
-										</div>
-									</a>
 								</div>
 							</div>
-							<div class="col-2">
-								<h2 class="text-center"><i class="fa fa-arrow-right fa-2x text-center"></i></h2>
-							</div>
-							<div class="col-5">
-					            <div class="box">
-					              <div class="box-header with-border">
-					                <h5 class="box-title">Muestrad ID: <strong>444</strong></h5>
-					              </div>
-					              <table class="table table-sm">
-					                  <tr>
-					                    <th>Componente</th>
-					                     <td><input type="text" class="form-control"></td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Recepcion</th>
-					                     <td>15/07/2020</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Fecha de Muestra</th>
-					                     <td><input type="date" class="form-control" id="date1"></td>
-					                  </tr>
-					                  <tr>
-					                    <th>Tipo de Aceite</th>
-					                     <td><input type="text" class="form-control"></td>
-					                  </tr>
-					                  <tr>
-					                    <th>Horometro</th>
-					                     <td><input type="text" class="form-control" value="200 H"></td>
-					                  </tr>
-					                  <tr>
-					                    <th>Lote</th>
-					                     <td>448</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cliente</th>
-					                     <td>Jaime Snow</td>
-					                  </tr>
-					                  <tr>
-					                    <th>Cambio de Aceite</th>
-					                     <td>
-					                     	
-					                     <div class="row">
-					                     	<div class="col">
-												<input name="group5" type="radio" id="radio_30" class="with-gap radio-col-red" checked="">
-												<label for="radio_30">Si</label>	
-											</div>
-											<div class="col">				
-												<input name="group5" type="radio" id="radio_32" class="with-gap radio-col-purple">
-												<label for="radio_32">No</label>
-											</div>
-										</div>
-
-						          		</td>
-					                  </tr>
-					              </table>
-					              <div class="box-footer">
-					                <button class="btn btn-default">Limpiar</button>
-					                <button class="btn btn-warning pull-center">Guardar</button>
-					                <button class="btn btn-info pull-right">Repetir</button>
-					              </div>
-					            </div>
-							</div>
-							--}}
+							
 						</div>
 					</div>
 					</section>

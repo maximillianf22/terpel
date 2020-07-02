@@ -25,15 +25,15 @@
         </a>
       </li>
                                                 <li class="">
-        <a href="#">
-          <i class="fa fa-users"></i> <span>Empleados</span>
+        <a href="/equipos">
+          <i class="fa fa-car"></i> <span>Equipos</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
           </span> -->
         </a>
       </li>
                         <li class="">
-        <a href="#">
+        <a href="/clientes">
           <i class="fa fa-address-book-o"></i> <span>Clientes</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
@@ -49,8 +49,8 @@
         </a>
       </li>
                         <li class="">
-        <a href="#">
-          <i class="fa fa-archive"></i> <span>Inventario</span>
+        <a href="/flota">
+          <i class="fa fa-archive"></i> <span>Flota</span>
           <!-- <span class="pull-right-container">
             <i class="fa fa-angle-right pull-right"></i>
           </span> -->

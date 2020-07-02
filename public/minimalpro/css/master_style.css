@@ -3504,7 +3504,7 @@ input[type="color"] {
     background-color: #F3F3F3
 }
 .wizard-content .wizard.wizard-circle>.steps .step {
-    width: 140px;
+    width: 180px;
     height: 50px;
     line-height: 45px;
     border: 3px solid #F3F3F3;

@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('recepcion.add');
 });
+
+Route::get('flota', function () {
+    return view('flota.index');
+});
+
+Route::get('equipo', function () {
+    return view('equipo.index');
+});
+
+Route::get('clientes', function () {
+    return view('clientes.index');
+});
